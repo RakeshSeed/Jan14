@@ -1,0 +1,50 @@
+Page object model  with pagefactory
+In this framework we create class  for every webpage example for Home webpage home class
+In this class contains collection(Repostiories) of webelement and reusable method
+PageFactory is static class in selenium.support package 
+
+As org.openqa.selenium.support.PageFactory.initElements
+(org.openqa.selenium.WebDriver, Class) but will only replace the fields of an 
+already instantiated Page Object.
+Parameters:driver The driver that will be used to look up the elementspage 
+The object with WebElement and List<WebElement> fields thatshould be proxied.
+
+Its use to intailize the weblement by using Annotation 
+
+
+
+@PageFactoryFinder(value=FindByBuilder.class)
+@Target(value={FIELD, TYPE})
+@Retention(value=RUNTIME)
+
+
+
+Used to mark a field on a Page Object to indicate an alternative mechanism for locating the element or a 
+list of elements. Used in conjunction with org.openqa.selenium.support.PageFactory this allows users to quickly 
+and easily create PageObjects.
+
+It can be used on a types as well, but will not be processed by default.
+
+You can either use this annotation by specifying both "how" and "using" or by specifying one ofthe location 
+strategies (eg: "id") with an appropriate value to use. Both options will delegate down to the 
+matching org.openqa.selenium.By methods in By class.
+
+For example, these two annotations point to the same element:
+ @FindBy(id = "foobar") WebElement foobar;
+ @FindBy(how = How.ID, using = "foobar") WebElement foobar;
+ 
+
+and these two annotations point to the same list of elements:
+ @FindBy(tagName = "a") List<WebElement> links;
+ @FindBy(how = How.TAG_NAME, using = "a") List<WebElement> links;
+ 
+
+
+
+Data Driven Development with apache poi reading and writing microsoft document 
+In this framework we are goining to  supply test data from  SpreadSheet
+
+
+
+
+BDD with cucumber java 

@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="117287" started-at="2022-01-10T09:04:07Z" finished-at="2022-01-10T09:06:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="117287" started-at="2022-01-10T09:04:07Z" finished-at="2022-01-10T09:06:04Z">
+      <class name="datadriventest.BH_Register_External_1">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:datadriventest.BH_Register_External_1@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="3825" started-at="2022-01-10T09:04:07Z" finished-at="2022-01-10T09:04:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="guest_user_open_chrome()[pri:0, instance:datadriventest.BH_Register_External_1@56ac3a89]" name="guest_user_open_chrome" duration-ms="18435" started-at="2022-01-10T09:04:11Z" finished-at="2022-01-10T09:04:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- guest_user_open_chrome -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:datadriventest.BH_Register_External_1@56ac3a89]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-01-10T09:04:29Z" finished-at="2022-01-10T09:04:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:datadriventest.BH_Register_External_1@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="142" started-at="2022-01-10T09:04:29Z" finished-at="2022-01-10T09:04:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="then_open_bhane_webapplication()[pri:0, instance:datadriventest.BH_Register_External_1@56ac3a89]" name="then_open_bhane_webapplication" duration-ms="29913" started-at="2022-01-10T09:04:30Z" depends-on-methods="datadriventest.BH_Register_External_1.guest_user_open_chrome" finished-at="2022-01-10T09:05:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- then_open_bhane_webapplication -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:datadriventest.BH_Register_External_1@56ac3a89]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-01-10T09:05:00Z" finished-at="2022-01-10T09:05:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:datadriventest.BH_Register_External_1@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="2601" started-at="2022-01-10T09:05:00Z" finished-at="2022-01-10T09:05:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="then_select_india()[pri:0, instance:datadriventest.BH_Register_External_1@56ac3a89]" name="then_select_india" duration-ms="5703" started-at="2022-01-10T09:05:02Z" depends-on-methods="datadriventest.BH_Register_External_1.then_open_bhane_webapplication" finished-at="2022-01-10T09:05:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- then_select_india -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:datadriventest.BH_Register_External_1@56ac3a89]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-01-10T09:05:08Z" finished-at="2022-01-10T09:05:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:datadriventest.BH_Register_External_1@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="1984" started-at="2022-01-10T09:05:44Z" finished-at="2022-01-10T09:05:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="then_try_to_register(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:datadriventest.BH_Register_External_1@56ac3a89]" name="then_try_to_register" duration-ms="9521" started-at="2022-01-10T09:05:46Z" data-provider="dp" depends-on-methods="datadriventest.BH_Register_External_1.then_select_india" finished-at="2022-01-10T09:05:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[First]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Last]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Email]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mobile ]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- then_try_to_register -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:datadriventest.BH_Register_External_1@56ac3a89]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-01-10T09:05:55Z" finished-at="2022-01-10T09:05:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:datadriventest.BH_Register_External_1@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="95" started-at="2022-01-10T09:05:55Z" finished-at="2022-01-10T09:05:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="then_try_to_register(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:datadriventest.BH_Register_External_1@56ac3a89]" name="then_try_to_register" duration-ms="2956" started-at="2022-01-10T09:05:55Z" data-provider="dp" depends-on-methods="datadriventest.BH_Register_External_1.then_select_india" finished-at="2022-01-10T09:05:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[qatest64321@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9087664323]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[tester12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- then_try_to_register -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:datadriventest.BH_Register_External_1@56ac3a89]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-01-10T09:05:58Z" finished-at="2022-01-10T09:05:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:datadriventest.BH_Register_External_1@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="50" started-at="2022-01-10T09:05:58Z" finished-at="2022-01-10T09:05:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="then_try_to_register(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:datadriventest.BH_Register_External_1@56ac3a89]" name="then_try_to_register" duration-ms="4390" started-at="2022-01-10T09:05:58Z" data-provider="dp" depends-on-methods="datadriventest.BH_Register_External_1.then_select_india" finished-at="2022-01-10T09:06:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[qatest64322@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9087664324]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[tester13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- then_try_to_register -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:datadriventest.BH_Register_External_1@56ac3a89]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-01-10T09:06:03Z" finished-at="2022-01-10T09:06:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:datadriventest.BH_Register_External_1@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="77" started-at="2022-01-10T09:06:03Z" finished-at="2022-01-10T09:06:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="then_try_to_register(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:datadriventest.BH_Register_External_1@56ac3a89]" name="then_try_to_register" duration-ms="165" started-at="2022-01-10T09:06:03Z" data-provider="dp" depends-on-methods="datadriventest.BH_Register_External_1.then_select_india" finished-at="2022-01-10T09:06:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[qatest64323@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9087664326]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[tester14]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- then_try_to_register -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:datadriventest.BH_Register_External_1@56ac3a89]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-01-10T09:06:03Z" finished-at="2022-01-10T09:06:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:datadriventest.BH_Register_External_1@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="104" started-at="2022-01-10T09:06:03Z" finished-at="2022-01-10T09:06:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="then_try_to_register(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:datadriventest.BH_Register_External_1@56ac3a89]" name="then_try_to_register" duration-ms="173" started-at="2022-01-10T09:06:03Z" data-provider="dp" depends-on-methods="datadriventest.BH_Register_External_1.then_select_india" finished-at="2022-01-10T09:06:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[qatest64324@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9087664326]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[tester16]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- then_try_to_register -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:datadriventest.BH_Register_External_1@56ac3a89]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-01-10T09:06:03Z" finished-at="2022-01-10T09:06:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:datadriventest.BH_Register_External_1@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="58" started-at="2022-01-10T09:06:03Z" finished-at="2022-01-10T09:06:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="then_try_to_register(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:datadriventest.BH_Register_External_1@56ac3a89]" name="then_try_to_register" duration-ms="176" started-at="2022-01-10T09:06:03Z" data-provider="dp" depends-on-methods="datadriventest.BH_Register_External_1.then_select_india" finished-at="2022-01-10T09:06:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[qatest64326@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9087664327]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[tester16]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- then_try_to_register -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:datadriventest.BH_Register_External_1@56ac3a89]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-01-10T09:06:03Z" finished-at="2022-01-10T09:06:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:datadriventest.BH_Register_External_1@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="59" started-at="2022-01-10T09:06:03Z" finished-at="2022-01-10T09:06:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="then_try_to_register(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:datadriventest.BH_Register_External_1@56ac3a89]" name="then_try_to_register" duration-ms="227" started-at="2022-01-10T09:06:03Z" data-provider="dp" depends-on-methods="datadriventest.BH_Register_External_1.then_select_india" finished-at="2022-01-10T09:06:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[qatest64326@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9087664328]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[tester17]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- then_try_to_register -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:datadriventest.BH_Register_External_1@56ac3a89]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-01-10T09:06:04Z" finished-at="2022-01-10T09:06:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:datadriventest.BH_Register_External_1@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="69" started-at="2022-01-10T09:06:04Z" finished-at="2022-01-10T09:06:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="then_try_to_register(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:datadriventest.BH_Register_External_1@56ac3a89]" name="then_try_to_register" duration-ms="144" started-at="2022-01-10T09:06:04Z" data-provider="dp" depends-on-methods="datadriventest.BH_Register_External_1.then_select_india" finished-at="2022-01-10T09:06:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[qatest64327@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9087664329]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[tester18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- then_try_to_register -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:datadriventest.BH_Register_External_1@56ac3a89]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-01-10T09:06:04Z" finished-at="2022-01-10T09:06:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:datadriventest.BH_Register_External_1@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="43" started-at="2022-01-10T09:06:04Z" finished-at="2022-01-10T09:06:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="then_try_to_register(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:datadriventest.BH_Register_External_1@56ac3a89]" name="then_try_to_register" duration-ms="185" started-at="2022-01-10T09:06:04Z" data-provider="dp" depends-on-methods="datadriventest.BH_Register_External_1.then_select_india" finished-at="2022-01-10T09:06:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[qatest64328@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9087664310]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[tester19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- then_try_to_register -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:datadriventest.BH_Register_External_1@56ac3a89]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-01-10T09:06:04Z" finished-at="2022-01-10T09:06:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:datadriventest.BH_Register_External_1@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="56" started-at="2022-01-10T09:06:04Z" finished-at="2022-01-10T09:06:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="then_try_to_register(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:datadriventest.BH_Register_External_1@56ac3a89]" name="then_try_to_register" duration-ms="139" started-at="2022-01-10T09:06:04Z" data-provider="dp" depends-on-methods="datadriventest.BH_Register_External_1.then_select_india" finished-at="2022-01-10T09:06:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[qatest64329@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9087664311]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[tester20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- then_try_to_register -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:datadriventest.BH_Register_External_1@56ac3a89]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-01-10T09:06:04Z" finished-at="2022-01-10T09:06:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- datadriventest.BH_Register_External_1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
